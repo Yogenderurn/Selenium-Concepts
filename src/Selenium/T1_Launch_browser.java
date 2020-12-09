@@ -17,5 +17,6 @@ public class T1_Launch_browser {
 	driver.findElement(By.xpath("//button[@id='loginbutton']")).click();
 	
 	System.out.print("Test Passed");
+	System.out.print("This is the change file");
 	}
 }
