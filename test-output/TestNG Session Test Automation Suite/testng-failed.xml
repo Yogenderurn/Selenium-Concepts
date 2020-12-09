@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Session Test Automation Suite]">
+  <test name="Difffernt testing feature Test(failed)">
+    <classes>
+      <class name="TestNG_Concepts.dependsOnMehode">
+        <methods>
+          <include name="LoginPage"/>
+          <include name="Homepage"/>
+        </methods>
+      </class> <!-- TestNG_Concepts.dependsOnMehode -->
+      <class name="TestNG_Concepts.Grouping_concept">
+        <methods>
+          <include name="SetUp"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- TestNG_Concepts.Grouping_concept -->
+      <class name="TestNG_Concepts.ExceptionTimeOut">
+        <methods>
+          <include name="infinitLooP"/>
+        </methods>
+      </class> <!-- TestNG_Concepts.ExceptionTimeOut -->
+      <class name="TestNG_Concepts.TestNG_basics">
+        <methods>
+          <include name="SetUp"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- TestNG_Concepts.TestNG_basics -->
+      <class name="TestNG_Concepts.AssertionConcept">
+        <methods>
+          <include name="Setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestNG_Concepts.AssertionConcept -->
+    </classes>
+  </test> <!-- Difffernt testing feature Test(failed) -->
+</suite> <!-- Failed suite [TestNG Session Test Automation Suite] -->
